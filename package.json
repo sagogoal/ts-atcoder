@@ -1,0 +1,18 @@
+{
+  "name": "ts-atcoder",
+  "version": "1.0.0",
+  "description": "## 標準入出力 https://qiita.com/pco2699/items/aa3a62fa9d0739f57a4a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
