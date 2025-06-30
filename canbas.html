@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Canvas Demo</title>
+    <style>
+        body {
+            background: #f0f0f0;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        canvas {
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Canvasで図形を描く</h1>
+    <canvas id="myCanvas" width="400" height="300"></canvas>
+
+    <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+
+        // 青い四角形
+        ctx.fillStyle = "blue";
+        ctx.fillRect(50, 50, 100, 80);
+
+        // 赤い円
+        ctx.beginPath();
+        ctx.arc(250, 100, 40, 0, Math.PI * 2);
+        ctx.fillStyle = "red";
+        ctx.fill();
+
+        // テキスト
+        ctx.fillStyle = "black";
+        ctx.font = "20px sans-serif";
+        ctx.fillText("Hello, Canvas!", 120, 200);
+    </script>
+
+</body>
+
+</html>
