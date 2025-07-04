@@ -1,8 +1,8 @@
 ## JSでの入出力チートシート
 https://qiita.com/cotton11aq/items/a8b93d61fca8f83ffaae
-
 やってたら覚えると思うので、とりあえず問題を解いていく。
 
+snippets/js-input.jsに
 
 ## 解いた問題や解く問題の方針
 最初はすぐにGPTに聞く。
